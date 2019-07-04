@@ -12,19 +12,17 @@
 </template>
 
 <script>
-  export default {
-    name: 'Hero',
-
-    data(){
-      return {
-        hero: {
-          id: 1,
-          name: 'Windstorm'
-        }
+export default {
+  name: 'Hero',
+  data () {
+    return {
+      hero: {
+        id: 1,
+        name: 'Windstorm'
       }
     }
-
   }
+}
 </script>
 
 <style></style>

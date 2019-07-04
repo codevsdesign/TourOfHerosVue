@@ -8,14 +8,14 @@
 </template>
 
 <script>
-  export default {
-    name: 'Heroes',
-    data(){
-      return {
-        hero: 'Windstorm'
-      }
+export default {
+  name: 'Heroes',
+  data(){
+    return {
+      hero: 'Windstorm'
     }
   }
+}
 </script>
 
 <style>
