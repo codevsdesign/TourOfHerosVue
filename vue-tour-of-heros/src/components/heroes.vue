@@ -1,16 +1,18 @@
 <template>
   <div>
-    <label>name:
-      <input v-model="hero.name" placeholder="name"/>
-    </label>
-  {{ hero }}
+    <h2>My Heroes</h2>
+    <ul class="heroes">
+      <li v-for="hero in heros" :key="hero.id">
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Heroes',
-  data(){
+  data () {
     return {
       heros: [
         { id: 11, name: 'Dr Nice' },

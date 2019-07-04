@@ -2,6 +2,7 @@
   <div id="app">
     <h1>{{ title }}</h1>
     <hero />
+    <heroes />
    <!--  <router-view/> -->
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 
 import Hero from './components/hero'
+import Heroes from './components/heroes'
 
 export default {
   name: 'App',
@@ -18,7 +20,8 @@ export default {
     }
   },
   components: {
-    Hero
+    Hero,
+    Heroes
   }
 }
 </script>
