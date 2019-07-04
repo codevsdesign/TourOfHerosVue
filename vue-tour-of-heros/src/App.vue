@@ -11,6 +11,11 @@ import Heroes from './components/heroes'
 
 export default {
   name: 'App' ,
+  data(){
+    return {
+      title: 'Tour of Heros (Vue Edition)'
+    }
+  },
   components: {
     Heroes
   }
