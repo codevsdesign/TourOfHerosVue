@@ -1,5 +1,17 @@
-<template></template>
+<template>
+  {{ hero }}
+</template>
 
-<script></script>
+<script>
+  export default {
+    data(){
+      return {
+        hero: 'Windstorm'
+      }
+    }
+  }
+</script>
 
-<style></style>
+<style>
+
+</style>
