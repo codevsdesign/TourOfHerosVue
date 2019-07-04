@@ -1,5 +1,8 @@
 <template>
   <div>
+    <label>name:
+      <input v-model="hero.name" placeholder="name"/>
+    </label>
   {{ hero }}
   </div>
 </template>
