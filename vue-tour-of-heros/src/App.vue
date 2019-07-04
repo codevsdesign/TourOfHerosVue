@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <h1>{{ title }}</h1>
+    <heroes />
+   <!--  <router-view/> -->
   </div>
 </template>
 
 <script>
+import Heroes from './components/heroes'
+
 export default {
-  name: 'App'
+  name: 'App' ,
+  components: {
+    Heroes
+  }
 }
 </script>
 
