@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <h1>{{ title }}</h1>
-
     <hero />
-
+    <heroes />
    <!--  <router-view/> -->
   </div>
 </template>
@@ -11,6 +10,7 @@
 <script>
 
 import Hero from './components/hero'
+import Heroes from './components/heroes'
 
 export default {
   name: 'App',
@@ -20,7 +20,7 @@ export default {
     }
   },
   components: {
-    Hero
+      Heroes
   }
 }
 </script>
@@ -30,7 +30,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
@@ -100,6 +99,7 @@ nav a.active {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
