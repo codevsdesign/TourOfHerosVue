@@ -13,8 +13,8 @@
 import Hero from './components/hero'
 
 export default {
-  name: 'App' ,
-  data(){
+  name: 'App',
+  data () {
     return {
       title: 'Tour of Heros (Vue Edition)'
     }
@@ -100,12 +100,9 @@ nav a.active {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */
-
 </style>

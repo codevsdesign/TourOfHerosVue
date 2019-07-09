@@ -1,6 +1,6 @@
 <template>
-  <div >
-    <h2> {{ hero.name | uppercase }} Details</h2>
+<div v-if="hero">
+    <h2>{{hero.name | uppercase }} Details</h2>
     <div>
       <span>id: </span> {{ hero.id }}
     </div>
@@ -11,18 +11,15 @@
 
 </template>
 
+
 <script>
 export default {
-  name: 'Hero',
+  name: 'HeroDetail'
 
-  data () {
-    return {
-      hero: {
-        id: 1,
-        name: 'Windstorm'
-      }
-    }
-  }
 }
 </script>
-<style></style>
+
+
+<style>
+
+</style>
